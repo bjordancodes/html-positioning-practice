@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://orig00.deviantart.net/a9a7/f/2009/107/1/9/blue_swirly_twitter_background_by_waywardmedic.jpg);
+    background-size: auto;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+.box{
+    margin: 10vh auto;
+    color: white;
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    
+}
+
+.inner{
+    height: 400px;
+    width: 400px;
+    background: lightcoral;
+    margin: 50px auto;
+    position: relative;
+    z-index: -1;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: lightslategray;
+    position: absolute;
+}
+
+.sticky{
+    background: lightseagreen;
+    position: sticky;
+    top: 10px;
+}
+
+.hotjar{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.hotjarimg{
+    height: 50px;
+    width: 50px;
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+nav {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.nav-link{
+    align-items: center;
+    font-size: 12px;
+
+}
+
+a {
+    color: white;
+    text-decoration: wavy;
+    cursor: pointer;
+}
+
+#subscribe{
+    height: 10px;
+    width: 85px;
+    border: 2px solid white;
+    padding: 10px 10px 20px 13px;
+    margin: 20px 30px 0px 20px;
+    border-radius: 45%;
+
+}
+
+.imgCenter{
+    margin: 0 auto;
+}
+
+p{
+    font-size: 25px;
+    font-weight: none;
+}
+
+.placeholder{
+    height: 10vh;
+    width: auto;
+}
+
+#exploring{
+    border: 2px solid white;
+    margin: 0 auto;
+    height: 20px;
+    width: 150px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 35%;
+    color: blue;
+    background: white;
+}
+
+#rotateme{
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: white;
+
+}
+
+.spacer{
+    width: 15px;
+}
